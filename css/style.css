@@ -432,9 +432,9 @@ th {
 .top-navigation > .content {
   width: 970px;
   height: 70px;
-  margin-right: auto;
-  margin-left: auto;
-}
+  margin: 0 auto;
+  }
+  
 
 
 
