@@ -431,28 +431,32 @@ td,
 th {
   padding: 0;
 }
-.content {
-  padding: 0 0.938rem;
-  margin: o auto;
-  min-width: 37.5rem;
+body {
+  background-color: LightGray;
+
+}
+div {
+  border: 1px solid chocolate;
 }
  /*Navigation Section */
 
  
  .top-navigation {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    border-bottom: 1px solid #DDD;
-    z-index: 9999;
+    background-color: #fff;   
+
  }
 .top-navigation > .content {
-  width: 960px;
-  height: 4.375rem;
-  margin: 0 99.5px;
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
   padding: 0px 15px;
+
 }
-  .top-navigation .links {
+.top-navigation .logo {
+    height: 4.375rem;
+    padding: 0px 15px;
+}
+.top-navigation .links {
   float: right;
   padding: "20px 15px";
   font-family: 'Roboto', sans-serif;
@@ -460,52 +464,43 @@ th {
   color: #838994;
   letter-spacing: 0.03em;
   margin-top: 1.7rem;
+
   }
 .top-navigation .links li {
-    display: inline-block;
-    margin-left: 1.563rem;
+   display: inline-block; 
+    margin-left: 25px;
+    }
     
-.logo {
-  padding: 0em 15px;
-}
-.top-navigation .links > .active {
-  color: #4c5058;
-  font-weight: 600;
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
 }
 
 .top-navigation .links li:hover {
-  cursor: pointer;
-  color: #333333;
+    cursor: pointer;
+    color: #333333;
 }
  .introduction {
-    background-image: url('../img/first-background.jpg');
+    background-image: url(http://i.imgur.com/NH8MNzE.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
-    overflow: auto;
+    height: 550px;
+  }
+.content {
+  margin: 0 auto;
+  padding: 0px 15px;
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.introduction h1,
+.introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+ }
+.introduction .content h1{
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
 
 
 
