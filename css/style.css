@@ -433,7 +433,8 @@ th {
 }
 body {
   background-color: LightGray;
-
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 div {
   border: 1px solid chocolate;
@@ -442,7 +443,9 @@ div {
 
  
  .top-navigation {
-    background-color: #fff;   
+    background-color: #fff; 
+    position: fixed;  
+    width: 100%;
 
  }
 .top-navigation > .content {
@@ -485,7 +488,7 @@ div {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 736px;
   }
 .content {
   margin: 0 auto;
@@ -496,13 +499,24 @@ div {
   color: white;
   text-align: center;
   font-weight: 300;
+  font-size: 25px;
+  line-height: 25px;
  }
 .introduction .content h1{
-  margin-top: 17.5rem;
+  margin-top: 273px;
   font-size: 3.125rem;
 }
-
-
+a, .big-button {
+  color: white;
+  border-radius: 4px;
+  padding: 16px 26px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 100px;
+  text-decoration: none;
+  background-color:  #f15a29;
+}
 
 
 
