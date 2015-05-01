@@ -438,9 +438,7 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-div {
-  border: 1px solid chocolate;
-}
+
  /*Navigation Section */
 
  
@@ -448,6 +446,7 @@ div {
     background-color: #fff; 
     position: fixed;  
     width: 100%;
+    top: 0;
 
  }
 .top-navigation > .content {
@@ -492,6 +491,7 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
     height: 736px;
+    padding-top: 273px;
   }
 .content {
   margin: 0 auto;
@@ -506,7 +506,6 @@ div {
   line-height: 25px;
  }
 .introduction .content h1{
-  margin-top: 273px;
   font-size: 3.125rem;
 }
 a, .big-button {
@@ -523,7 +522,7 @@ a, .big-button {
 }
 .cases {
   background-color: white;
-  height: ;
+  padding-top: 1px;
 }
 .cases .content: {
   text-align: center;
