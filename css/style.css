@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *after{
+*, *:before, *:after{
   box-sizing: inherit;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -431,6 +431,8 @@ td,
 th {
   padding: 0;
 }
+/*styles*/
+
 body {
   background-color: LightGray;
   font-family: 'Roboto', sans-serif;
@@ -456,8 +458,9 @@ div {
 
 }
 .top-navigation .logo {
-    height: 4.375rem;
-    padding: 0px 15px;
+    height: 95px;
+    width: 60px;
+    margin-top: -24px;
 }
 .top-navigation .links {
   float: right;
@@ -513,12 +516,15 @@ a, .big-button {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 100px;
+  width: 160px;
   text-decoration: none;
   background-color:  #f15a29;
   font-size: 16px;
 }
-
+.cases {
+  background-color: white;
+  height: ;
+}
 .cases .content: {
   text-align: center;
 }
@@ -531,11 +537,21 @@ line-height: 50px;
 margin: 100px 0;
 }
 
-.cases .devices {
+ul.devices {
+  margin: 0 auto;
+  width: 60%;
+  padding: 0;
+}
+.cases .devices li{
    display: inline-block;
-   border: 1px solid black;
+   width: 33%;
+   text-align: center;
    }
 
+.cases .devices p{
+  font-size: 25px;
+  margin-bottom: 100px;
+}
 
 
 
