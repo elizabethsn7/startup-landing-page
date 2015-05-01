@@ -519,8 +519,8 @@ a, .big-button {
   font-size: 16px;
 }
 
-.cases {
-
+.cases .content: {
+  text-align: center;
 }
 
 .cases h2{ 
@@ -528,9 +528,13 @@ text-align: center;
 font-weight: 300;
 font-size: 42px;
 line-height: 50px;
+margin: 100px 0;
 }
 
-
+.cases .devices {
+   display: inline-block;
+   border: 1px solid black;
+   }
 
 
 
