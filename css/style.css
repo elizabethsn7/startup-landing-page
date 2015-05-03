@@ -551,24 +551,14 @@ ul.devices {
   font-size: 25px;
   margin-bottom: 100px;
 }
-.social{
+.social {
   background-color: #fff;
+  padding: 0 auto;
+}
+.social .content h5 {
   text-align: center;
-  padding:150px;
+  
 }
-.social hr{
-  display: block;
-}
-
-.social .icons > li{
+.social .icons {
   display: inline-block;
-  border-radius: 50px;
 }
-
-.social .fa-twitter .twitter {
-  border-radius: 50px;
-}
-
-
-
-
